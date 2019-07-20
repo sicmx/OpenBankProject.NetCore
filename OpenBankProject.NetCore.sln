@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBankProject.NetCore", "src\OpenBankProject.NetCore\OpenBankProject.NetCore.csproj", "{2A84CA31-D8DB-48B9-9AED-B664114A218A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BCA493F1-CC9F-4E0A-A791-6D67DDAEF7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBankProject.NetCore.Tests", "test\OpenBankProject.NetCore.Tests\OpenBankProject.NetCore.Tests.csproj", "{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{1F079E72-4D12-4039-889E-2B07A52180CF}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.ps1 = build\build.ps1
+		build\test.ps1 = build\test.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADD4FA12-4A93-44BC-BAA5-D97DDC01ADEA}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A84CA31-D8DB-48B9-9AED-B664114A218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A84CA31-D8DB-48B9-9AED-B664114A218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A84CA31-D8DB-48B9-9AED-B664114A218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A84CA31-D8DB-48B9-9AED-B664114A218A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3F7EA56-A3DD-4DCA-8A4A-3DB35A44F6E0} = {BCA493F1-CC9F-4E0A-A791-6D67DDAEF7F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05B39021-4C1D-4888-8D7A-398D1A17DFF5}
+	EndGlobalSection
+EndGlobal
